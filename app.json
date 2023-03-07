@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "advice-generator-app-main",
-    "slug": "advice-generator-app-main",
+    "name": "Advice Generator",
+    "slug": "rnadvicegenerator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rnadvicegenerator.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5b37e08f-377b-4a53-a506-ab57ceed4584"
+      }
     }
   }
 }
