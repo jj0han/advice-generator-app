@@ -14,7 +14,7 @@ export default function Button({ setAdvice }) {
   }
 
   return (
-    <Animatable.View animation="pulse" iterationCount="infinite" duration={2000} easing="ease-in-cubic" className="absolute -bottom-9">
+    <Animatable.View  iterationCount="infinite" duration={2000} easing="ease-in-cubic" className="absolute -bottom-9">
       <TouchableOpacity className="p-5 rounded-full bg-[#53ffab]" onPress={handlePress}>
         <View>
           <Image className="w-7 h-7" source={icon} />
